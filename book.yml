@@ -1,18 +1,12 @@
 server:
-  port: 8081
+  port: 8083
 spring:
   application:
-    name: book
+    name: author
 
 ribbon:
   eureka:
     enabled: true
-
-foo:
-  bar
-
-fizz:
-  bang
 
 eureka:
   client:
