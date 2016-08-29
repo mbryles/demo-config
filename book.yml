@@ -8,6 +8,9 @@ ribbon:
   eureka:
     enabled: true
 
+foo:
+  bar
+
 eureka:
   client:
     serviceUrl:
