@@ -11,6 +11,9 @@ ribbon:
 foo:
   bar
 
+fizz:
+  bang
+
 eureka:
   client:
     serviceUrl:
