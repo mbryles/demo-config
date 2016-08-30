@@ -1,0 +1,21 @@
+zuul:
+  routes:
+    book:
+      path: /books/**
+      service-id: book
+    author:
+      path: /authors/**
+      service-id: author
+    service-instances.path: /service-instances/**
+
+ribbon:
+  eureka:
+    enabled: true
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
