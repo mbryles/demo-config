@@ -6,7 +6,8 @@ zuul:
     author:
       path: /authors/**
       service-id: author
-    service-instances.path: /service-instances/**
+    service-instances:
+      path: /service-instances/**
 
 ribbon:
   eureka:
