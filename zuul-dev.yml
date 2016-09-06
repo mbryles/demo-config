@@ -1,3 +1,10 @@
+spring:
+  rabbitmq:
+      host: daz1e1-rabbitmq-int-vip.sensus-analytics.com
+      port: 5672
+      username: Labbit
+      password: carrot
+
 zuul:
   routes:
     book:
