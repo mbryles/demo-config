@@ -23,6 +23,8 @@ ribbon:
 server:
   port: 8080
 
+heart: soul
+
 eureka:
   client:
     serviceUrl:
