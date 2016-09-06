@@ -3,6 +3,9 @@ server:
 
 eureka:
   enable-self-preservation: false
+  client:
+    register-with-eureka: true
+    fetch-registry: false
 
 logging:
   level:
