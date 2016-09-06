@@ -11,5 +11,6 @@ logging:
         eureka: OFF
         discovery: OFF
 spring:
-  config:
-    uri: http://configserver-env.us-east-1.elasticbeanstalk.com
+  cloud:
+    config:
+      uri: http://configserver-env.us-east-1.elasticbeanstalk.com
