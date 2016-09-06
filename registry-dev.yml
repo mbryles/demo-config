@@ -4,8 +4,10 @@ server:
 eureka:
   enable-self-preservation: true
   client:
-    register-with-eureka: true
+    register-with-eureka: false
     fetch-registry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
 
 logging:
   level:
@@ -13,7 +15,3 @@ logging:
       netflix:
         eureka: OFF
         discovery: OFF
-  spring:
-    cloud:
-      config:
-        uri: http://configserver-env.us-east-1.elasticbeanstalk.com
